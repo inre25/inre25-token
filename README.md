@@ -18,7 +18,7 @@ This package collects public token identity data, official public links, logo fi
 - Tokenomics docs page: https://inre25.com/docs/tokenomics/
 - Economy model docs page: https://inre25.com/docs/economy-model/
 - Sitemap: https://inre25.com/sitemap.xml
-- GitHub URL: will be added after publication
+- GitHub: https://github.com/inre25/inre25-token
 
 ## Token Identity
 
@@ -27,9 +27,6 @@ This package collects public token identity data, official public links, logo fi
 - Network: TON
 - Standard: TON Jetton
 - Decimals: 9
-- Primary logo for catalog/metadata later: `assets/logo/512x512.png`
-- Reserve large logo: `assets/logo/1024x1024.png`
-- SVG logo for README/brand use: `assets/logo/inre25.svg`
 
 ## Jetton Master
 
@@ -59,17 +56,37 @@ Public website materials currently describe:
 
 This repository does not claim that a DEX pool already exists.
 
-## Technical Lock Note
+## Public Updates and Supply Notes
 
-The 500,000,000 INRE25 operation dated January 25, 2026 is a Technical Lock, not a burn. It does not reduce the on-chain total supply, but it removes those tokens from effective available circulation.
+This repository is not a chronological news log.
 
-The primary burn of 75,000,000,000 INRE25 remains a separate burn event.
+Official public project updates, including supply-related announcements, liquidity notes, technical lock notes, burn notes, and other project updates, are published through the official INRE25 website and the official Telegram news channel:
 
-Technical Lock references should be checked against public explorers before final catalog or DEX submission.
+https://t.me/inre25_official
+
+Technical Lock is a public tokenomics mechanism used to identify INRE25 moved out of effective available circulation through a publicly verifiable on-chain address or technical mechanism described in the official project materials.
+
+Technical Lock is used for public verifiability and for easier observation of the INRE25 amount excluded from effective available circulation.
+
+According to the verified Jetton Master contract code and the official project materials, the Technical Lock address is not intended to operate as a regular user wallet for managing received INRE25 as a normal user balance.
+
+The verified contract code does not provide a function that would allow developers, the project owner, or third parties to:
+
+- withdraw those INRE25 back;
+- transfer them to another address;
+- manage them as a regular user balance.
+
+INRE25 moved to Technical Lock remains publicly visible on-chain, but is excluded from effective available supply and from the project's accessible circulation.
+
+Technical Lock is not a standard burn event and does not reduce the on-chain total supply. Its purpose is to provide public visibility for INRE25 excluded from effective available supply and to support tokenomics discipline.
+
+Technical Lock must not be interpreted as a promise of token price growth.
+
+The public tokenomics documents linked in this repository remain the reference materials for the current published tokenomics model.
 
 ## Repository Contents
 
-- `assets/logo/` - public logo and icon files copied from the public website assets.
+- `assets/logo/` - public INRE25 logo and icon files.
 - `docs/` - public PDF documents linked by the website.
 - `metadata/` - notes for pending token metadata work.
 - `token-info/` - public token address and official link notes.
