@@ -87,15 +87,15 @@ Technical Lock is not a standard burn event and does not reduce the on-chain tot
 
 Technical Lock must not be interpreted as a promise of token price growth.
 
-The public tokenomics documents linked in this repository remain the reference materials for the current published tokenomics model.
+The tokenomics documents linked in this repository are the official public documents for the currently published INRE25 tokenomics model.
 
 ## Repository Contents
 
-- `assets/logo/` - public INRE25 logo and icon files.
-- `docs/` - public PDF documents linked by the website.
-- `metadata/` - notes for pending token metadata work.
-- `token-info/` - public token address and official link notes.
-- `SECURITY.md` - public information safety notice.
+- `assets/logo/` - official public INRE25 logo and icon files.
+- `docs/` - official public PDF documents linked by the INRE25 website.
+- `metadata/` - token metadata status note; final `token.json` is not included yet.
+- `token-info/` - public token address, official links, and public document references.
+- `SECURITY.md` - public notice that this repository must not contain secrets, private keys, runtime files, or user data.
 
 ## Security / Public Information Notice
 
