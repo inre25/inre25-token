@@ -18,6 +18,7 @@ This package collects public token identity data, official public links, logo fi
 - Tokenomics docs page: https://inre25.com/docs/tokenomics/
 - Economy model docs page: https://inre25.com/docs/economy-model/
 - Sitemap: https://inre25.com/sitemap.xml
+- Official Telegram news: https://t.me/inre25_official
 - GitHub: https://github.com/inre25/inre25-token
 
 ## Token Identity
@@ -34,7 +35,7 @@ This package collects public token identity data, official public links, logo fi
 EQCP-D1tfJ8MDlsk9MWQXNjP9_0mxwXNVNvH_IWhobfyQLUq
 ```
 
-Explorer and catalog links should be verified again before final submission.
+The Jetton Master address is provided for public on-chain verification.
 
 ## Public Documents
 
@@ -67,6 +68,10 @@ https://t.me/inre25_official
 Technical Lock is a public tokenomics mechanism used to identify INRE25 moved out of effective available circulation through a publicly verifiable on-chain address or technical mechanism described in the official project materials.
 
 Technical Lock is used for public verifiability and for easier observation of the INRE25 amount excluded from effective available circulation.
+
+Public Technical Lock / Jetton Master reference:
+
+- Tonviewer: https://tonviewer.com/EQCP-D1tfJ8MDlsk9MWQXNjP9_0mxwXNVNvH_IWhobfyQLUq?section=tokens
 
 According to the verified Jetton Master contract code and the official project materials, the Technical Lock address is not intended to operate as a regular user wallet for managing received INRE25 as a normal user balance.
 
