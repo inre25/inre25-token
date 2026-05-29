@@ -2,7 +2,7 @@
 
 INRE25 is a TON Jetton public proof package for the INRE25 token.
 
-This repository is prepared as a public proof package before DEX pool work and catalog submissions. It is not a confirmation of any wallet, explorer, catalog, or DEX listing.
+This repository is prepared as a public proof package for token identity, public links, tokenomics documents, and public market-access references. It is not a confirmation of any wallet, explorer, catalog, or DEX listing.
 
 ## Overview
 
@@ -53,9 +53,19 @@ Public website materials currently describe:
 - Start pricing ratio: 1 USDT = 400 INRE25
 - Launch pool target: 1,000,000 INRE25
 - Launch pool value at launch: 2,500 USDT
-- If a public DEX pool is created, market price may be formed by public DEX trading conditions
 
-This repository does not claim that a DEX pool already exists.
+## Public DEX Pool
+
+INRE25 has a public INRE25/USDT liquidity pool on STON.fi.
+
+- DEX: STON.fi
+- Pair: INRE25/USDT
+- Initial liquidity: 1,000,000 INRE25 + 2,500 USDT
+- Pool address: `EQDRP6MlCilb8qu6Y0oB13atHjdB3-14IW4dhcsfvFSs0zg6`
+- Swap: https://app.ston.fi/swap?chartVisible=false&ft=USD%E2%82%AE&tt=EQCP-D1tfJ8MDlsk9MWQXNjP9_0mxwXNVNvH_IWhobfyQLUq
+- Pool/liquidity: https://app.ston.fi/liquidity/provide?type=Balanced&ft=USD%E2%82%AE&tt=EQCP-D1tfJ8MDlsk9MWQXNjP9_0mxwXNVNvH_IWhobfyQLUq&pool=EQDRP6MlCilb8qu6Y0oB13atHjdB3-14IW4dhcsfvFSs0zg6
+
+This pool provides public market access to INRE25 through the TON ecosystem. Market price is formed by public DEX trading conditions, liquidity, supply, demand, and user activity. This repository does not make any price-growth, profit, or fixed-price promise.
 
 ## Public Updates and Supply Notes
 
@@ -106,6 +116,5 @@ If sensitive data is found, publication must stop and the repository must be rev
 ## Pending Public Metadata Items
 
 - Final token metadata JSON will be added after checking target catalog/schema requirements.
-- Final GitHub URL will be added after repository publication.
 - Final external explorer/catalog requirements are pending.
 - `metadata/token.json` is intentionally not included yet.

@@ -10,4 +10,4 @@
 EQCP-D1tfJ8MDlsk9MWQXNjP9_0mxwXNVNvH_IWhobfyQLUq
 ```
 
-Explorer and catalog links should be verified before final submission.
+The Jetton Master address and public links are provided for public on-chain verification and external catalog review. Wallet or catalog verification must not be claimed until the relevant external asset-list process is accepted.
